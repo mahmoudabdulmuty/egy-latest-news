@@ -16,7 +16,7 @@ Project is created with
 Clone the Github repository and use npm to install the dependencies
 
 ```
-git clone https://github.com/mahmoudabdulmuty/egy-latest-news
+git clone https://github.com/mahmoudabdulmuty/egy-latest-news.git
 cd egy-latest-news
 npm i
 npm start
