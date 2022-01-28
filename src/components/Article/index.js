@@ -1,5 +1,6 @@
 import { nanoid } from 'nanoid';
 import React, { Component } from 'react';
+import noImgAvailable from '../../images/No-Image-Available.jpg';
 import './Article.css';
 export class Article extends Component {
 	render() {
@@ -15,7 +16,7 @@ export class Article extends Component {
 								!urlToImage ||
 								urlToImage.includes('muhtwaplus') ||
 								urlToImage.includes('aljazeera.net')
-									? './img/No-Image-Available.jpg'
+									? noImgAvailable
 									: urlToImage
 							}
 							alt={title}
