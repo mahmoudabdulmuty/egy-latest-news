@@ -1,7 +1,7 @@
 # Egypt News
 * [General info](#general-info)
 * [Technologies](#technologies)
-* [Setup](#setup)
+* [Setup](#Installation & Run)
 
 ## General info
 This project is a simple fetching-data-app from **[News Api](https://newsapi.org/)** to get the latest Egypt News
