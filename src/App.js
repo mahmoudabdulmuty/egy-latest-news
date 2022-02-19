@@ -18,7 +18,6 @@ function App() {
 		setUrl(
 			`https://newsapi.org/v2/top-headlines?country=eg&category=${category}&apiKey=3bd4753c68144c04b3eb73e44b7da657`
 		);
-		console.log(url);
 	};
 	useEffect(() => {
 		const getArticles = async () => {
@@ -31,7 +30,13 @@ function App() {
 
 	return (
 		<>
-			<Header />
+			<Header
+				handleDefault={() =>
+					setUrl(
+						'http://newsapi.org/v2/top-headlines?country=eg&apiKey=3bd4753c68144c04b3eb73e44b7da657'
+					)
+				}
+			/>
 			<Menu handleClick={handleClick} />
 			<Article articles={articles} />
 		</>

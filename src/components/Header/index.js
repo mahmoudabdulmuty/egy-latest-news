@@ -1,10 +1,15 @@
 import './Header.css';
-const index = () => {
+const Header = ({ handleDefault }) => {
 	return (
 		<header className="header">
-			<h1 className="header-title">أخبار مصر</h1>
+			<h1 className="header-title">
+				<a href="/" onClick={handleDefault}>
+					{' '}
+					أخبار مصر
+				</a>
+			</h1>
 		</header>
 	);
 };
 
-export default index;
+export default Header;
