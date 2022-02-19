@@ -5,7 +5,10 @@
 
 ## General info
 This project is a simple fetching-data-app from **[News Api](https://newsapi.org/)** to get the latest Egypt News
-	
+
+## **[Live Site](https://egy-news.netlify.app/)**
+
+
 ## Technologies
 Project is created with
 * React.js
